@@ -47,7 +47,7 @@ public class Preferences
 	}
 
 	public int getSocksPort() {
-		return prefs.getInt(SOCKS_PORT, 1080);
+		return prefs.getInt(SOCKS_PORT, 3333);
 	}
 
 	public void setSocksPort(int port) {
